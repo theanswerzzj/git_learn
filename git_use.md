@@ -134,3 +134,33 @@ git push origin master
 ```
 git clone git@github.com:michaelliao/gitskills.git
 ```
+
+创建分支
+```
+git checkout -b dev
+
+#or
+
+git branch dev
+git checkout dev
+```
+
+查看分支
+```
+git branch
+```
+
+切换回master 分支
+```
+git checkout master
+```
+
+合并分支
+```
+git merge dev
+```
+
+删除分支
+```
+git branch -d dev
+```
