@@ -66,5 +66,10 @@ git diff git_use.md
 ```
 git log
 ```
+现在，我们要把当前版本append GPL回退到上一个版本add distributed，就可以使用git reset命令：
+```
+$ git reset --hard HEAD
+HEAD is now at e475afc add distributed
+```
 
 
