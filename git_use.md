@@ -61,3 +61,10 @@ git pull origin master # master可以更换为其他分支
 git status
 git diff git_use.md
 ```
+
+查看历史修改
+```
+git log
+```
+
+
