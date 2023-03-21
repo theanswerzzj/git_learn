@@ -138,6 +138,7 @@ git clone git@github.com:michaelliao/gitskills.git
 创建分支
 ```
 git checkout -b dev
+git switch -c dev
 
 #or
 
@@ -153,6 +154,7 @@ git branch
 切换回master 分支
 ```
 git checkout master
+git switch master
 ```
 
 合并分支
@@ -164,5 +166,11 @@ git merge dev
 ```
 git branch -d dev
 ```
+<<<<<<< HEAD
 ## 解决冲突
 这是master分支
+=======
+
+## 解决冲突
+这是feature1分支
+>>>>>>> feature1
