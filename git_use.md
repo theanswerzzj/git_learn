@@ -55,3 +55,9 @@ git push -u origin master # master可以更换为其他分支
 ```
 git pull origin master # master可以更换为其他分支
 ```
+
+查看状态
+```
+git status
+git diff git_use.md
+```
